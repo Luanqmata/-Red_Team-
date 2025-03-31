@@ -1,3 +1,7 @@
+link maq - https://drive.google.com/file/d/1T6XcA_A--FMGiI9jP0G8Lij6B2kIaHFi/view?usp=classroom_web&authuser=0
+link prova - https://tryhackme.com/jr/5m1thexploitationbasic
+
+
 # Desconbrindo IP da Maq
 ## 192.168.100.190
 
