@@ -1,0 +1,118 @@
+Downloads e instalações antes da aula para otimizar o tempo:
+
+Patch de atualização do WSL - instalar no Windows:
+https://wslstorestorage.blob.core.windows.net/wslblob/wsl_update_x64.msi
+
+Virtual Box - instalar no Windows:
+https://download.virtualbox.org/virtualbox/7.1.4/VirtualBox-7.1.4-165100-Win.exe
+
+Virtual Box Extension Pack - instalar no Windows depois da instalação do virtualbox:
+https://download.virtualbox.org/virtualbox/7.1.4/Oracle_VirtualBox_Extension_Pack-7.1.4.vbox-extpack
+
+Kali Linux para Virtual Box - baixar e extrair:
+https://cdimage.kali.org/kali-2024.4/kali-linux-2024.4-virtualbox-amd64.7z
+
+Windows 10 Enterprise ISO x64 Inglês (Estados Unidos) - Preencher o formulário e baixra a ISO x64 EN
+https://info.microsoft.com/ww-landing-windows-10-enterprise.html
+
+Ova Metasploitable 3 Windows Server 2008
+https://www.dropbox.com/scl/fi/r71z1725hu3j84olhc2pm/Metasploitable3-win2k8.ova?rlkey=exl8p2v5t5a8fgb34bv5hiw06&e=1&dl=0
+
+Ova Metasploitable 2 Linux
+https://drive.google.com/file/d/1QQwcYOcoKg4zAUEB0xS5urE53H4xWgv_/view?usp=sharing
+
+
+Passos para instalação do do WSL no Windows:
+1- No painel de controle, habilitar os itens:
+-Plataforma de Máquina Virtual;
+-Plataforma do Hypervisor do Windows; e
+-Subsistema do Windows para oo Linux.
+
+2- Reiniciar o Windows;
+
+3- Baixar o pacote de atualização do WSL:
+Link: https://wslstorestorage.blob.core.windows.net/wslblob/wsl_update_x64.msi
+
+4- Instalar o pacote de atualização;
+
+5- Abrir o Terminal do Windows, executando como administrador;
+
+6- Executar o comando: wsl --set-default-version 2
+
+7- Executar o comando PowerShell.
+
+8- No PowerShell, executar o seguinte comando:
+Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsistem-Linux
+
+9- No PowerShell, executar o seguinte comando: wsl --install
+
+10- No PowerShell, executar o seguinte comando: wsl --update
+
+11- No PowerShell, executar o seguinte comando: wsl --install -d kali-linux
+
+12- Digita a o nome do usuário do kali.
+
+13- Digite uma senha para o usuário e repete a senha.
+
+13- No terminal do kali, digite o seguinte comando: sudo apt update && sudo apt upgrade -y
+
+14- No terminal do kali, digite o seguinte comando: sudp apt install kali-win-kex -y
+
+15- Após a instalação do do kex, no terminal do kali, digite o seguinte comando: kex
+
+16- Defina uma senha de utilização do kex (mínimo seis dígitos).
+
+17- Para instalar os pacotes completos do kali, digite o seguinte comando: sudo apt install kali-linux-large -y
+Caso apresente alguma tela de configuração, basta dar enter e seguir.
+Caso apresente erro na instalação, execute o comando: sudo apt-get install kali-linux-large -y
+
+
+Passos para o Virtual Box:
+
+1- Baixar o Virtual Box e o Extension Pack;
+
+2- Instalar o Virtual Box e o Extension Pack;
+
+3- Baixar o kali Linux para o Virtual Box;
+
+3- Descompactar o arquivo baixado;
+
+4- No Virtual Box, clicar em acrescentar e apontar para o arquivo descompactado;
+
+5- Adicionar uma nova placa de rede e colocar como host-only, e acrescentar memória (4GB);
+
+6- Ligar o kali. 
+Usuário: kali 
+Senha: kali
+
+7- No terminal do kali, digite o seguinte comando: sudo apt update && sudo apt upgrade -y
+
+8- No terminal do kali, digite o seguinte comando: sudo apt install kali-linux-large -y
+
+9- Acessar o Evaluation Center da Microsoft e baixar a ISO do Windows 10 Enterprise(pode ser utilizada qualquer uma);
+
+10- No Virtual Box, clicar em novo, atribuir um nome, apontar para a ISO baixada, marcar a opção Pular Instalação Desassistida e clicar em Finalizar.
+
+11- Colocar 2 cpu e 4gb de ram, colocar a placa de rede em host-only e clicar em iniciar;
+
+12- Seguir a instalação do Windows 10;
+
+13- Baixar a ova Metasploitable3-win2k8;
+
+14- No Virtual Box, clicar em Arquivo e em seguida em importar appliance, apontar para a ova baixada.
+
+15- Manter a placa de rede em host-only e iniciar a máquina;
+
+16- Login: vagrant Senha: vagrant
+
+17- Executar o cmd como administrador, executar o seguinte comendo: slmgr /rearm
+
+18- Reiniciar a VM Metasploitable3-win2k8;
+
+19- Baixar a ova Metasploitable;
+
+20- No Virtual Box, clicar em Arquivo e em seguida em importar appliance, apontar para a ova baixada.
+
+21- Manter a placa de rede em host-only e iniciar a máquina;
+
+22- Login: msfadmin Senha: msfadmin
