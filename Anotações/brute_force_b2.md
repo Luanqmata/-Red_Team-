@@ -6,10 +6,10 @@
 
 # Imagem do pc do professor não meu deu bug no fpt
 ![image](https://github.com/user-attachments/assets/16d3e256-e2d4-4de1-b872-5aa397800883)
-
+### Unico comando que aceitou e retornou foi o help
 ## meu pc:
 ![image](https://github.com/user-attachments/assets/c5db73d0-fce7-491c-a1d3-cbf4fd730504)
-### Unico comando que aceitou e retornou foi o help
+# Flag Bf1
 ![image](https://github.com/user-attachments/assets/0e13695d-6321-4f02-8952-9d773b8afa11)
 
 # Enumerando com RDESKTOP 
