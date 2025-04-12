@@ -129,3 +129,4 @@ Pressione Enter para continuar...
 ![image](https://github.com/user-attachments/assets/bc491d96-2634-4123-8ea3-f765a8626de6)
 ## Obtive ainformação que tem um ASPnet rodando e de acordo com a analise magnam com asp net pode ter arquivo .aspx 
 
+# E o banco de dados é um magnam.aspx 
