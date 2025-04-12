@@ -135,3 +135,4 @@ Pressione Enter para continuar...
 ## Podemos Upar arquivos , mas e como acessar esses arquivos? 
 ![image](https://github.com/user-attachments/assets/6f5d8a80-5b47-43d1-aa28-b3edb7c45c7f)
 # ( Como o banco é magnam é so colocar um magnam/"nome do arquivo upado" e vc tem acesso aquele arquivo )
+## Agora é só subir o Shell 
