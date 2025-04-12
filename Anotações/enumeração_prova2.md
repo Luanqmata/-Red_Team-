@@ -130,3 +130,8 @@ Pressione Enter para continuar...
 ## Obtive ainformação que tem um ASPnet rodando e de acordo com a analise magnam com asp net pode ter arquivo .aspx 
 
 # E o banco de dados é um magnam.aspx 
+![image](https://github.com/user-attachments/assets/1797792d-dba5-40f5-94bc-1320114fe322)
+
+## Podemos Upar arquivos , mas e como acessar esses arquivos? 
+![image](https://github.com/user-attachments/assets/6f5d8a80-5b47-43d1-aa28-b3edb7c45c7f)
+# ( Como o banco é magnam é so colocar um magnam/"nome do arquivo upado" e vc tem acesso aquele arquivo )
