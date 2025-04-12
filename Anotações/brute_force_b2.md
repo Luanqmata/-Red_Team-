@@ -4,4 +4,6 @@
 # Fazendo Brute Force com Hydra no servidor FTP : 21 ssh
 ![image](https://github.com/user-attachments/assets/1eb575c9-05ac-48f2-9b31-f0243f7fbd5c)
 
-#
+# Enumerando com RDESKTOP 
+![image](https://github.com/user-attachments/assets/c0e5d80c-e490-4d66-86f1-1774e01cbe6e)
+
