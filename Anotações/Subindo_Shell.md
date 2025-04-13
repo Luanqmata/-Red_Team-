@@ -47,7 +47,9 @@
 ## depois de executar o comando a porta que esta escutando vai receber o cmd 
 ![image](https://github.com/user-attachments/assets/e768c7eb-f61c-4241-8d7e-e2997555c53c)
 ## agora é so fazer enumeração de arquivos e encotrar a flag do arquivo sensivel:
-![image](https://github.com/user-attachments/assets/03169296-a4f6-4d47-8cb0-c8ded1dcf93a)
+![image](https://github.com/user-attachments/assets/12899b1c-0cff-4350-b986-3f8b8d5d0c39)
+## Arquivo sensivel encontrado:
+![image](https://github.com/user-attachments/assets/822f7405-3985-4a8a-80b7-05fbe0a33b31)
 
 
 
