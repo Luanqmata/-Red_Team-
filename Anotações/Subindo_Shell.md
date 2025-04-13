@@ -30,3 +30,11 @@
     com o endereço de ip do meu computador windons e o arquivo que vai ser baixado que é o nc.exe,
     e dai ele vai salvar no users public que qualqr um tem acesso com o nome de nc.exe
 ```
+## depois de rodar o comando vai dizer que deu sucesso:
+![image](https://github.com/user-attachments/assets/20dfd46a-d056-4dd6-ad33-0ae350bcd4a4)
+## agora é so verificar se realmente ele foi baixado na pasta publica (ele está lá):
+![image](https://github.com/user-attachments/assets/7a58ca23-e926-482a-bac3-34088934c625)
+## arquivo upado precisamos acessar a shell do nosso kali ( colocamos o nc para escutar na porta 4444 ):
+
+
+
