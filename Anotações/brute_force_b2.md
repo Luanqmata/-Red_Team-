@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/d4c7f211-758b-4493-8278-d840ad3fbb46)# Conforme o pedido criando listas de possiveis senhas do usuario Walter
+# Conforme o pedido criando listas de possiveis senhas do usuario Walter
 ![image](https://github.com/user-attachments/assets/2fbb4656-90c4-4218-8ef7-dd8ac1bf4248)
 
 # Fazendo Brute Force com Hydra no servidor FTP : 21 ssh
