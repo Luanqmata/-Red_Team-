@@ -2,7 +2,7 @@
 
 ## Resumindo tudo favoravel para subir o shell
 
-## Contexto para subir o shell sabendo a tecnologia do site que é ASP NET eu posso ta procurando um Shell que seja ASp.aspx upar no servidor e acessar ele e conseguir injetar comandos 
+## Contexto para subir o shell sabendo a tecnologia do site que é ASP NET eu posso ta procurando um Shell que seja ASPNET.aspx upar no servidor e acessar ele e conseguir injetar comandos 
 ## 1° - Procurar no google o SHell : github: shell for ASP.aspx 
 ## 2° - Desligar o antivirus do computador
 ![image](https://github.com/user-attachments/assets/d7a9b6dd-d1a3-463e-a716-488dfa836c1a)
