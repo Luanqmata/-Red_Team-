@@ -1,4 +1,4 @@
-# Lista de Possíveis Senhas — Usuário Walter
+# Lista de Possíveis Senhas — Usuário Walter 🔑
 
 Conforme solicitado, foi criada uma lista de possíveis senhas para o usuário **Walter**.
 
@@ -6,18 +6,18 @@ Conforme solicitado, foi criada uma lista de possíveis senhas para o usuário *
 
 ---
 
-# Brute Force com Hydra no Servidor
+# Brute Force com Hydra no Servidor 🛠️
 
 Tentativa de força bruta utilizando **Hydra** nas portas:
 
-- **FTP : 21**
-- **SSH**
+- **FTP : 21** 🔓
+- **SSH** 🔐
 
 ![Hydra Ataque](https://github.com/user-attachments/assets/1eb575c9-05ac-48f2-9b31-f0243f7fbd5c)
 
 ---
 
-# Bug no FTP
+# Bug no FTP 🐞
 
 Imagem do PC do professor, pois no meu computador ocorreu bug no FTP:
 
@@ -31,19 +31,19 @@ Imagem do PC do professor, pois no meu computador ocorreu bug no FTP:
 
 ---
 
-# Flag: BF1
+# Flag: BF1 🎌
 
 ![Flag BF1](https://github.com/user-attachments/assets/0e13695d-6321-4f02-8952-9d773b8afa11)
 
 ---
 
-# Enumerando com RDESKTOP
+# Enumerando com RDESKTOP 💻
 
 ![RDesktop](https://github.com/user-attachments/assets/c0e5d80c-e490-4d66-86f1-1774e01cbe6e)
 
 ---
 
-# Descobrindo Senha da Usuária AMANDA
+# Descobrindo Senha da Usuária AMANDA 🔍
 
 Utilizando o dicionário `rockyou.txt`:
 
@@ -52,9 +52,10 @@ Utilizando o dicionário `rockyou.txt`:
 
 ---
 
-# Logando com RDESKTOP
+# Logando com RDESKTOP 🔐
 
 Após descobrir a senha, logar usando:
+
 
 ```bash
   rdesktop IP -u nome_usuario
@@ -66,7 +67,7 @@ Após descobrir a senha, logar usando:
 
 ## Após logar com a senha `daniel1`:
 
-Será exibida a seguinte tela com a **flag**:
+### Será exibida a seguinte tela com a **flag**:
 
 ![Flag Final](https://github.com/user-attachments/assets/401748d8-6248-4cdc-8d4f-f04758254e4b)
 
