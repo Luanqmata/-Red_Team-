@@ -34,6 +34,5 @@
 ![image](https://github.com/user-attachments/assets/83769602-6357-413a-a1f3-813bdae33f61)
 ## consegui autoridade sys agora eu posso navegar livremente por qualqr pasta
 ![image](https://github.com/user-attachments/assets/c1e967bd-f8a5-418b-b13a-673c70002896)
-## procurando as ultimas duas flags 
 ![image](https://github.com/user-attachments/assets/4ae46ce3-0699-48fe-bf73-89775f233e52)
 
