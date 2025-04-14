@@ -8,3 +8,5 @@
 ![image](https://github.com/user-attachments/assets/2b108c2a-badc-4f05-8f6f-228442189844)
 ## arquivo copiado com sucesso só voltar para o kali agora e baixar
 ![image](https://github.com/user-attachments/assets/2759e50d-7787-47b5-bcca-66bbb3561897)
+## no kali fazendo o dowload do .zip
+![image](https://github.com/user-attachments/assets/a0ee3115-c85f-4378-acb2-c8e8937e19ae)
