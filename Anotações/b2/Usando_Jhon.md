@@ -21,3 +21,11 @@
 ![image](https://github.com/user-attachments/assets/d92c0694-edd2-46d7-80ae-cdbcb571ebb8)
 ## de acordo com oque esta escrito parece ter uma pagina de login na porta 8080 acessando:
 ![image](https://github.com/user-attachments/assets/a1732f7c-f358-4172-ba81-98ff8e23f0cb)
+### detalhe para descobrir a versao do jenkis é só http://IP:8080/oops
+## depois de acessar vc vai em gerenciamento e la vai ter a parte de scripting clica la é avai abrir um terminal 
+![image](https://github.com/user-attachments/assets/98061983-d5fe-4c46-9e7a-255aefdd5ad7)
+## colocar o nc para escutar na porta 4444 ou qualqr outra
+![image](https://github.com/user-attachments/assets/ee3861f4-908f-437e-a086-960eb88dddf7)
+## ir em um gerador de shell e preencher escolher o groovy e colocar cmd pq é win
+![image](https://github.com/user-attachments/assets/86baebd5-ca76-414f-a2b9-9107c28733bd)
+
