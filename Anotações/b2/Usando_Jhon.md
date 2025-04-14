@@ -14,4 +14,7 @@
 ![image](https://github.com/user-attachments/assets/51bd43c9-00af-4b8a-983b-ed98d8ce6333)
 ## Pegando o hash do arquivo .zip
 ![image](https://github.com/user-attachments/assets/eb5c4335-58ef-4d10-9f7b-73ee8f12f83e)
-## agora usar a rock you para quebrar o hash
+## agora usar a rock you para quebrar o hash ( senha:panther )
+![image](https://github.com/user-attachments/assets/13075f33-b8de-4550-9cde-f9b75c461cc7)
+![image](https://github.com/user-attachments/assets/dc30d3dc-3048-436a-b4d7-306dcb0f8b8f)
+![image](https://github.com/user-attachments/assets/d92c0694-edd2-46d7-80ae-cdbcb571ebb8)
