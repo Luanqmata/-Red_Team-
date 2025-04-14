@@ -75,7 +75,5 @@ passando o IP e a porta para conectar e o `-e` para executar o `cmd` do Windows.
 ![image](https://github.com/user-attachments/assets/e768c7eb-f61c-4241-8d7e-e2997555c53c)
 
 📦 Arquivo sensível encontrado:  
-![image](https://github.com/user-attachments/assets/12899b1c-0cff-4350-b986-3f8b8d5d0c39)
-
-🏁 FLAG encontrada:  
+![image](https://github.com/user-attachments/assets/12899b1c-0cff-4350-b986-3f8b8d5d0c39) 
 ![image](https://github.com/user-attachments/assets/822f7405-3985-4a8a-80b7-05fbe0a33b31)
