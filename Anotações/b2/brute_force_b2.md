@@ -1,4 +1,3 @@
-
 # Lista de Possíveis Senhas — Usuário Walter
 
 Conforme solicitado, foi criada uma lista de possíveis senhas para o usuário **Walter**.
@@ -58,7 +57,7 @@ Utilizando o dicionário `rockyou.txt`:
 Após descobrir a senha, logar usando:
 
 ```bash
-rdesktop IP -u nome_usuario
+  rdesktop IP -u nome_usuario
 ```
 
 ![Login RDesktop](https://github.com/user-attachments/assets/ec2ff825-e6cc-456d-b14f-f8dcb0f805b7)
