@@ -28,4 +28,9 @@
 ![image](https://github.com/user-attachments/assets/ee3861f4-908f-437e-a086-960eb88dddf7)
 ## ir em um gerador de shell e preencher escolher o groovy e colocar cmd pq é win
 ![image](https://github.com/user-attachments/assets/86baebd5-ca76-414f-a2b9-9107c28733bd)
+## só colar e executar 
+![image](https://github.com/user-attachments/assets/7ed2288a-4d89-428f-9ddc-bb7d4617ef49)
+## depois de executar a nc que estava escutando vai escutar 
+![image](https://github.com/user-attachments/assets/83769602-6357-413a-a1f3-813bdae33f61)
+## consegui autoridade sys agora eu posso navegar livremente por qualqr pasta
 
