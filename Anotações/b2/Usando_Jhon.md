@@ -17,4 +17,5 @@
 ## agora usar a rock you para quebrar o hash ( senha:panther )
 ![image](https://github.com/user-attachments/assets/13075f33-b8de-4550-9cde-f9b75c461cc7)
 ![image](https://github.com/user-attachments/assets/dc30d3dc-3048-436a-b4d7-306dcb0f8b8f)
+![image](https://github.com/user-attachments/assets/8bb3b6df-6422-440e-8e84-66d51f8c211d)
 ![image](https://github.com/user-attachments/assets/d92c0694-edd2-46d7-80ae-cdbcb571ebb8)
