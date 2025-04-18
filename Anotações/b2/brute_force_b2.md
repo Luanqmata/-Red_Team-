@@ -1,3 +1,12 @@
+# Exploração da Máquina — TryHackMe Smith Exploitation Basic
+
+## Links
+
+- 💻 **Máquina:** [Google Drive - Máquina](https://drive.google.com/file/d/1T6XcA_A--FMGiI9jP0G8Lij6B2kIaHFi/view?usp=classroom_web&authuser=0)
+- 🔍 **Prova:** [TryHackMe - Smith Exploitation Basic](https://tryhackme.com/jr/5m1thexploitationbasic)
+
+---
+
 # Lista de Possíveis Senhas — Usuário Walter 🔑
 
 Conforme solicitado, foi criada uma lista de possíveis senhas para o usuário **Walter**.
