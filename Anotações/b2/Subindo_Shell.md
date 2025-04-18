@@ -1,4 +1,11 @@
+# Exploração da Máquina — TryHackMe Smith Exploitation Basic
 
+## Links
+
+- 💻 **Máquina:** [Google Drive - Máquina](https://drive.google.com/file/d/1T6XcA_A--FMGiI9jP0G8Lij6B2kIaHFi/view?usp=classroom_web&authuser=0)
+- 🔍 **Prova:** [TryHackMe - Smith Exploitation Basic](https://tryhackme.com/jr/5m1thexploitationbasic)
+
+---
 # Depois de levantar informações específicas como o lugar onde tem uma falha para upar arquivos e deletar, o lugar onde esses arquivos ficam armazenados e ainda conseguir acessar ele.
 
 ## Resumindo: tudo favorável para subir o shell.
