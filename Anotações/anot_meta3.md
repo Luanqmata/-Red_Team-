@@ -4,11 +4,12 @@ sudo apt install postgresql postgresql-contrib &&
 sudo service postgresql start
 
 msfdb init
-----
+---- dentro do MSFCONSOLE
 msfconsole
 db_connect msf:msf@127.0.0.1:5432/msf
+------------------------------
 
-![image](https://github.com/user-attachments/assets/4fd6c1bb-7046-475b-aa98-4870ef157d5e)
+![image](https://github.com/user-attachments/assets/c79ab59f-974d-4781-bb66-693c1e4cff30)
 
 ![image](https://github.com/user-attachments/assets/a7e1a171-b54a-4cfa-b625-edcb3abb0ada)
 
