@@ -37,6 +37,7 @@ db_connect msf:msf@127.0.0.1:5432/msf
 
 ![Profundando 2](https://github.com/user-attachments/assets/fdf0e3c5-cae1-4044-a42e-541c8ab3ced3)
 ![image](https://github.com/user-attachments/assets/d5d2abe2-15f3-42d0-9437-a090990f9c7c)
+### Achei a vulnerabilidade e com pesquisa descobri https://github.com/rapid7/metasploit-framework/blob/master/documentation/modules/auxiliary/scanner/rservices/rexec_login.md
 
 ---
 
