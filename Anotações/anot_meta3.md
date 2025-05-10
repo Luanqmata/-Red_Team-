@@ -35,7 +35,7 @@ db_connect msf:msf@127.0.0.1:5432/msf
 
 ## Aprofundando
 
-![Profundando 1](https://github.com/user-attachments/assets/6bbef33f-f8f6-4ff4-aed0-ec8f4a0920d0)
+![Profundando](https://github.com/user-attachments/assets/6bbef33f-f8f6-4ff4-aed0-ec8f4a0920d0)
 ![Profundando 2](https://github.com/user-attachments/assets/fdf0e3c5-cae1-4044-a42e-541c8ab3ced3)
 
 ---
