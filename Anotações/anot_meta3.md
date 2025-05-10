@@ -53,14 +53,6 @@ sessions -i 2   # Acessar a sessão 2
 
 ---
 
-## Dados de IPs
-
-```text
-Meu IP:     177.67.136.88
-IP Kali:    172.24.49.254
-IP Meta:    192.168.100.102
-```
-
 ## PAYLOADs
 
 ```text
