@@ -8,14 +8,15 @@ msfdb init
 msfconsole
 db_connect msf:msf@127.0.0.1:5432/msf
 ------------------------------
-
+# criando workspace desse computador
 ![image](https://github.com/user-attachments/assets/c79ab59f-974d-4781-bb66-693c1e4cff30)
+# serviços
+![image](https://github.com/user-attachments/assets/e2602863-3e4e-426a-a54a-eca74d17c896)
+# informaçoes de host
+![image](https://github.com/user-attachments/assets/121e0dc0-f0ed-43af-81b0-7d5af6a9aaee)
+# Procurando diretorios escondidos
+![image](https://github.com/user-attachments/assets/f4ec5416-ea24-4f5a-8234-1894a40596b9)
 
-![image](https://github.com/user-attachments/assets/a7e1a171-b54a-4cfa-b625-edcb3abb0ada)
-
-![image](https://github.com/user-attachments/assets/5f82ab13-8c53-4ac1-bfc4-88fe7959647e)
-
-![image](https://github.com/user-attachments/assets/967ec4b6-3d7a-4357-9a10-85016a8a83cc)
 
 Depois de conseguir acesso como root usando o payload de:
 CRTL + Z ;
