@@ -36,6 +36,7 @@ db_connect msf:msf@127.0.0.1:5432/msf
 ## Aprofundando
 
 ![Profundando 2](https://github.com/user-attachments/assets/fdf0e3c5-cae1-4044-a42e-541c8ab3ced3)
+![image](https://github.com/user-attachments/assets/d5d2abe2-15f3-42d0-9437-a090990f9c7c)
 
 ---
 
@@ -64,7 +65,6 @@ scanner/vnc/vnc_login          => VNC (usar depois com: vncviewer 192.168.100.10
 ## Força Bruta com Nmap e Hydra
 
 ```bash
-nmap -p 512 --script rexec-brute -v 192.168.100.102
 
 # Depois:
 hydra -L /home/luan/Desktop/porta_512_logins/usuarios_512.txt \
