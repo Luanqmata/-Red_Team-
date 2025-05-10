@@ -17,6 +17,13 @@ db_connect msf:msf@127.0.0.1:5432/msf
 # Procurando diretorios escondidos
 ![image](https://github.com/user-attachments/assets/f4ec5416-ea24-4f5a-8234-1894a40596b9)
 
+# PROFUNDANDO
+![image](https://github.com/user-attachments/assets/6bbef33c-f8f6-4ff4-aed0-ec8f4a0920d0)
+![image](https://github.com/user-attachments/assets/fdf0e3c5-cae1-4044-a42e-541c8ab3ced3)
+
+
+
+
 
 Depois de conseguir acesso como root usando o payload de:
 CRTL + Z ;
