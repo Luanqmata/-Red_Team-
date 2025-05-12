@@ -109,6 +109,14 @@ vnc          open   VNC protocol 3.3
 ![image](https://github.com/user-attachments/assets/c846313e-8347-48a4-a2c1-73bae76df953)
 > Consegui o acesso a maquina porem o payload que eu usei é muito fraco e nao possui um cmd interativo que me retorna as respostas , mas o acesso foi concedido.
 
+![image](https://github.com/user-attachments/assets/fc26b3f3-a551-44df-aca3-335c7acf8a8b)
+
+### Fazendo uma breve pesquisa com o GPT encontrei um possivel payload interativo testei e consegui um terminal um pouco mais interativo
+![image](https://github.com/user-attachments/assets/d19fedf9-907e-4cb2-a515-0925df54c9d7)
+### shell subido
+![image](https://github.com/user-attachments/assets/f5e6f216-0ae9-4e78-8f18-6b5f654475f6)
+
+
 ## 🧪 Força Bruta com Nmap e Hydra
 
 ```bash
