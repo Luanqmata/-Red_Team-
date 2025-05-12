@@ -151,6 +151,7 @@ vnc          open   VNC protocol 3.3
 > Executar o jhon para a quebra das hashs e tambem o hashcat
 ![image](https://github.com/user-attachments/assets/42bab695-39af-4b06-b33f-c85261b852e8)
 >
+> 
 
 
 ## 🧪 Força Bruta com Nmap e Hydra
