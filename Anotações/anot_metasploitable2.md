@@ -137,7 +137,7 @@ vnc          open   VNC protocol 3.3
 > Conseguindo assim ter acesso a arquivos sensiveis como shadow e passwd:
 ![image](https://github.com/user-attachments/assets/557f278f-89a4-47d8-a5ef-5d240182fd02)
 ![image](https://github.com/user-attachments/assets/49f8cb3e-7ddb-40ab-a9f4-fe3e43614e45)
-
+>
 
 ## 🧪 Força Bruta com Nmap e Hydra
 
