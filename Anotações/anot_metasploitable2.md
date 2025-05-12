@@ -24,8 +24,7 @@ db_connect msf:msf@127.0.0.1:5432/msf
 
 ## Links
 
-- 💻 **Máquina:** [Google Drive - Máquina]([https://drive.google.com/file/d/1T6XcA_A--FMGiI9jP0G8Lij6B2kIaHFi/view?usp=classroom_web&authuser=0](https://drive.google.com/file/d/1QQwcYOcoKg4zAUEB0xS5urE53H4xWgv_/view?usp=sharing
-)
+- 💻 **Máquina:** [Google Drive - Máquina](https://drive.google.com/file/d/1T6XcA_A--FMGiI9jP0G8Lij6B2kIaHFi/view?usp=classroom_web&authuser=0)
 
 ## 🛠️ Serviços
 
