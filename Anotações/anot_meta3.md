@@ -58,12 +58,6 @@ sessions -i 2   # Acessar a sessão 2
 
 ---
 
-## PAYLOADs
-
-```text
-scanner/vnc/vnc_login          => VNC (usar depois com: vncviewer 192.168.100.102:5900 :password)
-```
-
 # IVASÂO 2 
 192.168.100.148  23    tcp    telnet       open   Linux telnetd
 ![image](https://github.com/user-attachments/assets/e4a966e1-1675-47cf-8bb2-ee265cab82af)
@@ -72,6 +66,10 @@ como pode se notar ele encontrou 2 credenciais validas das criadas usei os login
 ![image](https://github.com/user-attachments/assets/86525351-ef9c-41b0-bcb0-f11850590a0b)
 Checkando se salvou no sessions e esta tudo ok sessoes salvas 
 
+---
+# invasão 3
+192.168.100.148  5900  tcp    vnc          open   VNC protocol 3.3
+![image](https://github.com/user-attachments/assets/9d38a130-a67f-4ce4-9d6a-7e482ed638e9)
 
 ## Força Bruta com Nmap e Hydra
 
