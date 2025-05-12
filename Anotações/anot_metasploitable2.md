@@ -100,6 +100,15 @@ vnc          open   VNC protocol 3.3
 ![image](https://github.com/user-attachments/assets/13f27e69-31e1-442f-ada7-f8adc2eab30d)
 ![image](https://github.com/user-attachments/assets/bdaccf4b-6405-4f56-a9f0-cfe403ceb4ab)
 
+### 🔓 INVASÃO 4 - unreal_irc - 192.168.100.148:6667 - Via shell reverse
+
+![image](https://github.com/user-attachments/assets/3eb04e4f-99a5-4a0c-b5c9-ed4889b849b6)
+
+> Configurações do mf6 , E o net cat no meu windons escutando a resposta do mf6 usando o payload unix/reverse
+![image](https://github.com/user-attachments/assets/0f163124-4e0a-42f4-b2d5-dab3ced3daee)
+![image](https://github.com/user-attachments/assets/dc6e5015-ea32-4880-a3ae-8a86d94f35b5)
+> Consegui o acesso a maquina porem o payload que eu usei é muito fraco e nao possui um cmd interativo que me retorna as respostas , mas o acesso foi concedido.
+
 ## 🧪 Força Bruta com Nmap e Hydra
 
 ```bash
