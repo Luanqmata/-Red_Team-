@@ -68,8 +68,9 @@ scanner/vnc/vnc_login          => VNC (usar depois com: vncviewer 192.168.100.10
 192.168.100.148  23    tcp    telnet       open   Linux telnetd
 ![image](https://github.com/user-attachments/assets/e4a966e1-1675-47cf-8bb2-ee265cab82af)
 ![image](https://github.com/user-attachments/assets/31a8001f-1199-465d-85a2-9b2c498c04dc)
-
 como pode se notar ele encontrou 2 credenciais validas das criadas usei os logins do rexecbrute do nmap p512 porem só 2 teve resultado positivo 
+![image](https://github.com/user-attachments/assets/86525351-ef9c-41b0-bcb0-f11850590a0b)
+Checkando se salvou no sessions e esta tudo ok sessoes salvas 
 
 
 ## Força Bruta com Nmap e Hydra
