@@ -141,6 +141,18 @@ vnc          open   VNC protocol 3.3
 ![image](https://github.com/user-attachments/assets/49f8cb3e-7ddb-40ab-a9f4-fe3e43614e45)
 >
 
+### 🔓 Quebrando senhas Shadow
+
+> Depois de coseguir acesso ao arquivo de shadow's , vamos pegar a senhas que ainda estao ativas ( sem * ou ! significa que ou nao tem senha pra quebrar ou aquela senha nao existe mais )
+>
+> Vamos criar um arquivo hash.txt e colocar as hashs que sao quebraveis dentro dele
+![image](https://github.com/user-attachments/assets/74d7d11b-9fa5-4238-a988-5ac5e9d99bc5)
+>
+> Executar o jhon para a quebra das hashs e tambem o hashcat
+![image](https://github.com/user-attachments/assets/42bab695-39af-4b06-b33f-c85261b852e8)
+>
+
+
 ## 🧪 Força Bruta com Nmap e Hydra
 
 ```bash
