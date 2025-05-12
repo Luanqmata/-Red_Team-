@@ -20,6 +20,13 @@ db_connect msf:msf@127.0.0.1:5432/msf
 
 ![Criando Workspace](https://github.com/user-attachments/assets/c79ab59f-974d-4781-bb66-693c1e4cff30)
 
+# Exploração da Máquina — Metasploitable 2
+
+## Links
+
+- 💻 **Máquina:** [Google Drive - Máquina]([https://drive.google.com/file/d/1T6XcA_A--FMGiI9jP0G8Lij6B2kIaHFi/view?usp=classroom_web&authuser=0](https://drive.google.com/file/d/1QQwcYOcoKg4zAUEB0xS5urE53H4xWgv_/view?usp=sharing
+)
+
 ## 🛠️ Serviços
 
 ![Serviços](https://github.com/user-attachments/assets/e2602863-3e4e-426a-a54a-eca74d17c896)
