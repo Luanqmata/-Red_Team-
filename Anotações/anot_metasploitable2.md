@@ -151,8 +151,11 @@ vnc          open   VNC protocol 3.3
 > Executar o jhon para a quebra das hashs e tambem o hashcat
 >
 ![image](https://github.com/user-attachments/assets/42bab695-39af-4b06-b33f-c85261b852e8)
-
-
+![image](https://github.com/user-attachments/assets/d32f0ad3-3eef-4ec4-bca9-cf60c5e9ce8f)
+> o Jhon nao conseguio quebrar algumas senhas mas o hashcat conseguiu:
+> sys:batman
+> klog:12345678
+> service:service
 
 ## 🧪 Força Bruta com Nmap e Hydra
 
