@@ -61,7 +61,6 @@ sessions -i 2   # Acessar a sessão 2
 ## PAYLOADs
 
 ```text
-auxiliary/scanner/telnet_login => Telnet porta 23
 scanner/vnc/vnc_login          => VNC (usar depois com: vncviewer 192.168.100.102:5900 :password)
 ```
 
