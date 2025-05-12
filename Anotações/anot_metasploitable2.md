@@ -75,6 +75,15 @@ sessions -i 2   # Acessar a sessão 2
 
 ---
 
+### 🔓 INVASÃO 1 - bin shell - 192.168.100.148:1524
+
+```text
+binshell       open   Metasploitable root shell
+```
+
+![image](https://github.com/user-attachments/assets/4638ec06-c904-410f-a5c9-ce93b0391e65)
+
+---
 ### 🔓 INVASÃO 2 - Telnet - 192.168.100.148:23
 
 ```text
