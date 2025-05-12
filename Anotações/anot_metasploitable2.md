@@ -119,8 +119,6 @@ vnc          open   VNC protocol 3.3
 
 >Fazendo uma breve pesquisa com o GPT encontrei um possível payload interativo, testei e consegui um terminal um pouco mais interativo
 
-![image](https://github.com/user-attachments/assets/d19fedf9-907e-4cb2-a515-0925df54c9d7)
-
 > Shell subido
 
 ![image](https://github.com/user-attachments/assets/f5e6f216-0ae9-4e78-8f18-6b5f654475f6)
