@@ -134,6 +134,7 @@ vnc          open   VNC protocol 3.3
 > Obs: o netcat não estava instalado antes... ai ta constando como sem upgrades, instalei antes da print
 > Vamos colocar um para falar e o outro para escutar ,e executar o comando dentro do vncviewer 
 ![image](https://github.com/user-attachments/assets/573cd44b-d39d-4d0b-9a54-1553842ae82d)
+>
 ![image](https://github.com/user-attachments/assets/d20db048-b0ce-4c90-8a4a-f74d2286d657)
 >
 > Conseguindo assim ter acesso a arquivos sensiveis como shadow e passwd:
