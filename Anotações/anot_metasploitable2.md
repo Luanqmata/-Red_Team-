@@ -108,8 +108,6 @@ vnc          open   VNC protocol 3.3
 
 ### 🔓 INVASÃO 4 - unreal_irc - 192.168.100.148:6667 - Via shell reverse
 
-![image](https://github.com/user-attachments/assets/3eb04e4f-99a5-4a0c-b5c9-ed4889b849b6)
-
 > Configurações do mf6, E o netcat no meu Windows escutando a resposta do mf6 usando o payload unix/reverse
 
 ![image](https://github.com/user-attachments/assets/0f163124-4e0a-42f4-b2d5-dab3ced3daee)
