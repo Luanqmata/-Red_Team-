@@ -132,6 +132,7 @@ vnc          open   VNC protocol 3.3
 ![image](https://github.com/user-attachments/assets/78f40755-9145-44bd-8188-b7b7747e5bf4)
 >
 > Obs: o netcat não estava instalado antes... ai ta constando como sem upgrades, instalei antes da print
+> 
 > Vamos colocar um para falar e o outro para escutar ,e executar o comando dentro do vncviewer 
 ![image](https://github.com/user-attachments/assets/573cd44b-d39d-4d0b-9a54-1553842ae82d)
 >
