@@ -41,7 +41,7 @@ db_connect msf:msf@127.0.0.1:5432/msf
 
 ---
 # INVASÕES
-vsftpd 2.3.4
+192.168.100.148  21    tcp    ftp          open   vsftpd 2.3.4
 ![image](https://github.com/user-attachments/assets/abc64304-25ad-45f5-97ee-bf44b724ac86)
 
 ## Depois de conseguir acesso como root usando o payload ( Salvar sessão ):
@@ -64,6 +64,12 @@ sessions -i 2   # Acessar a sessão 2
 auxiliary/scanner/telnet_login => Telnet porta 23
 scanner/vnc/vnc_login          => VNC (usar depois com: vncviewer 192.168.100.102:5900 :password)
 ```
+
+# IVASÂO 2 
+192.168.100.148  23    tcp    telnet       open   Linux telnetd
+![image](https://github.com/user-attachments/assets/e4a966e1-1675-47cf-8bb2-ee265cab82af)
+
+
 
 ## Força Bruta com Nmap e Hydra
 
