@@ -115,9 +115,9 @@ vnc          open   VNC protocol 3.3
 
 > Consegui o acesso a máquina, porém o payload que eu usei é muito fraco e não possui um cmd interativo que me retorna as respostas, mas o acesso foi concedido.
 
-![image](https://github.com/user-attachments/assets/fc26b3f3-a551-44df-aca3-335c7acf8a8b)
-
 >Fazendo uma breve pesquisa com o GPT encontrei um possível payload interativo, testei e consegui um terminal um pouco mais interativo
+
+![image](https://github.com/user-attachments/assets/fc26b3f3-a551-44df-aca3-335c7acf8a8b)
 
 > Shell subido
 
