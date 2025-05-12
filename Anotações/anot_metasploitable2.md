@@ -106,7 +106,7 @@ vnc          open   VNC protocol 3.3
 
 > Configurações do mf6 , E o net cat no meu windons escutando a resposta do mf6 usando o payload unix/reverse
 ![image](https://github.com/user-attachments/assets/0f163124-4e0a-42f4-b2d5-dab3ced3daee)
-![image](https://github.com/user-attachments/assets/dc6e5015-ea32-4880-a3ae-8a86d94f35b5)
+![image](https://github.com/user-attachments/assets/c846313e-8347-48a4-a2c1-73bae76df953)
 > Consegui o acesso a maquina porem o payload que eu usei é muito fraco e nao possui um cmd interativo que me retorna as respostas , mas o acesso foi concedido.
 
 ## 🧪 Força Bruta com Nmap e Hydra
