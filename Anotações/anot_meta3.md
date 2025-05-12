@@ -70,6 +70,12 @@ Checkando se salvou no sessions e esta tudo ok sessoes salvas
 # invasão 3
 192.168.100.148  5900  tcp    vnc          open   VNC protocol 3.3
 ![image](https://github.com/user-attachments/assets/9d38a130-a67f-4ce4-9d6a-7e482ed638e9)
+![image](https://github.com/user-attachments/assets/7c60bfc9-56b7-4b30-be68-4c3d7ee0a80f)
+
+## obtive a resposta do scan que a as credenciais são ( :password ) agora testar
+![image](https://github.com/user-attachments/assets/13f27e69-31e1-442f-ada7-f8adc2eab30d)
+![image](https://github.com/user-attachments/assets/bdaccf4b-6405-4f56-a9f0-cfe403ceb4ab)
+
 
 ## Força Bruta com Nmap e Hydra
 
