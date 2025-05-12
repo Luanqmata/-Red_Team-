@@ -33,7 +33,7 @@ db_connect msf:msf@127.0.0.1:5432/msf
 
 ![Diretórios Escondidos](https://github.com/user-attachments/assets/f4ec5416-ea24-4f5a-8234-1894a40596b9)
 
-## Aprofundando
+## Aprofundando (  scanner/smb/smb_version  |  scanner/rdp/rdp_scanner  )
 
 ![Profundando 2](https://github.com/user-attachments/assets/fdf0e3c5-cae1-4044-a42e-541c8ab3ced3)
 ![image](https://github.com/user-attachments/assets/d5d2abe2-15f3-42d0-9437-a090990f9c7c)
