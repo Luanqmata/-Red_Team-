@@ -110,23 +110,23 @@ vnc          open   VNC protocol 3.3
 
 ![image](https://github.com/user-attachments/assets/3eb04e4f-99a5-4a0c-b5c9-ed4889b849b6)
 
-Configurações do mf6, E o netcat no meu Windows escutando a resposta do mf6 usando o payload unix/reverse
+> Configurações do mf6, E o netcat no meu Windows escutando a resposta do mf6 usando o payload unix/reverse
 
 ![image](https://github.com/user-attachments/assets/0f163124-4e0a-42f4-b2d5-dab3ced3daee)
 ![image](https://github.com/user-attachments/assets/c846313e-8347-48a4-a2c1-73bae76df953)
 
-Consegui o acesso a máquina, porém o payload que eu usei é muito fraco e não possui um cmd interativo que me retorna as respostas, mas o acesso foi concedido.
+> Consegui o acesso a máquina, porém o payload que eu usei é muito fraco e não possui um cmd interativo que me retorna as respostas, mas o acesso foi concedido.
 
 ![image](https://github.com/user-attachments/assets/fc26b3f3-a551-44df-aca3-335c7acf8a8b)
 
-Fazendo uma breve pesquisa com o GPT encontrei um possível payload interativo, testei e consegui um terminal um pouco mais interativo
+>Fazendo uma breve pesquisa com o GPT encontrei um possível payload interativo, testei e consegui um terminal um pouco mais interativo
 
 ![image](https://github.com/user-attachments/assets/d19fedf9-907e-4cb2-a515-0925df54c9d7)
 
-Shell subido
+> Shell subido
 
 ![image](https://github.com/user-attachments/assets/f5e6f216-0ae9-4e78-8f18-6b5f654475f6)
-
+>
 
 
 ## 🧪 Força Bruta com Nmap e Hydra
