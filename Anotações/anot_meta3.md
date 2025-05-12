@@ -44,7 +44,7 @@ db_connect msf:msf@127.0.0.1:5432/msf
 vsftpd 2.3.4
 ![image](https://github.com/user-attachments/assets/abc64304-25ad-45f5-97ee-bf44b724ac86)
 
-## Depois de conseguir acesso como root usando o payload:
+## Depois de conseguir acesso como root usando o payload ( Salvar sessão ):
 
 ```bash
 CTRL + Z
@@ -54,7 +54,7 @@ sessions        # Ver sessões ativas
 sessions -i 2   # Acessar a sessão 2
 ```
 
-![Sessão](https://github.com/user-attachments/assets/e4c0a2cc-9ec0-4e06-9f0f-3e3448ace42d)
+![image](https://github.com/user-attachments/assets/ea3a1675-41b7-4832-b96c-d626c48420bb)
 
 ---
 
