@@ -126,6 +126,18 @@ vnc          open   VNC protocol 3.3
 ![image](https://github.com/user-attachments/assets/f5e6f216-0ae9-4e78-8f18-6b5f654475f6)
 >
 
+### 🔓 INVASÃO 5 - VNC - 192.168.100.148:5900 - Via shell reverse
+
+> Depois de ter conseguido acesso de root pelo vnc viewr da para dar uma brincada instalando um nc para um reverse shell
+![image](https://github.com/user-attachments/assets/78f40755-9145-44bd-8188-b7b7747e5bf4)
+> Obs: o netcat não estava instalado antes... ai ta constando como sem upgrades, instalei antes da print
+> Vamos colocar um para falar e o outro para escutar ,e executar o comando dentro do vncviewer 
+![image](https://github.com/user-attachments/assets/573cd44b-d39d-4d0b-9a54-1553842ae82d)
+![image](https://github.com/user-attachments/assets/d20db048-b0ce-4c90-8a4a-f74d2286d657)
+> Conseguindo assim ter acesso a arquivos sensiveis como shadow e passwd:
+![image](https://github.com/user-attachments/assets/557f278f-89a4-47d8-a5ef-5d240182fd02)
+![image](https://github.com/user-attachments/assets/49f8cb3e-7ddb-40ab-a9f4-fe3e43614e45)
+
 
 ## 🧪 Força Bruta com Nmap e Hydra
 
