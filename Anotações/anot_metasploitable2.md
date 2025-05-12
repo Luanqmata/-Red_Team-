@@ -39,6 +39,9 @@ db_connect msf:msf@127.0.0.1:5432/msf
 ![image](https://github.com/user-attachments/assets/d5d2abe2-15f3-42d0-9437-a090990f9c7c)
 ### Mais info da vuln 512 https://github.com/rapid7/metasploit-framework/blob/master/documentation/modules/auxiliary/scanner/rservices/rexec_login.md
 
+## aprofundando 2 buscando informaçoes de configuração do tomcat do servidor
+![image](https://github.com/user-attachments/assets/726cf174-445b-4100-9335-f7e22c518ec0)
+
 ---
 # INVASÕES
 192.168.100.148  21    tcp    ftp          open   vsftpd 2.3.4
@@ -67,6 +70,7 @@ como pode se notar ele encontrou 2 credenciais validas das criadas usei os login
 Checkando se salvou no sessions e esta tudo ok sessoes salvas 
 
 ---
+
 # invasão 3
 192.168.100.148  5900  tcp    vnc          open   VNC protocol 3.3
 ![image](https://github.com/user-attachments/assets/9d38a130-a67f-4ce4-9d6a-7e482ed638e9)
