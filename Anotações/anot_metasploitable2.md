@@ -149,6 +149,7 @@ vnc          open   VNC protocol 3.3
 ![image](https://github.com/user-attachments/assets/74d7d11b-9fa5-4238-a988-5ac5e9d99bc5)
 >
 > Executar o jhon para a quebra das hashs e tambem o hashcat
+>
 ![image](https://github.com/user-attachments/assets/42bab695-39af-4b06-b33f-c85261b852e8)
 
 
