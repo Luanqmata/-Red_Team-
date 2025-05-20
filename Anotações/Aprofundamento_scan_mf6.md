@@ -98,3 +98,6 @@ Payloads do MSF6:
 - cmd/unix/reverse_python
 
 ```
+
+Ping para descobrir todos os endereços que estao na sua rede , descubra seu ip ultimos ultimos 3 numeros coloque 0/24 , fazer o scan na rede
+ nmap -sn 192.168.100.0/24
