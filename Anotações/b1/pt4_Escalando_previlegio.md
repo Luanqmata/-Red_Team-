@@ -59,6 +59,7 @@ a=$(`docker ps` | cut -d " " -f1 | grep -v "CONTAINER")
 ######################## Docker Inspect ###################
 🔍 `docker inspect` $a
 ```
+- Aparentemente tem um docker na maquina
 
 # Escalando para 🛡️ `root`
 ![image](https://github.com/user-attachments/assets/bf139977-d1f1-4cc6-8afa-4439c19f50b9)
