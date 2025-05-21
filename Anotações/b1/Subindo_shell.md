@@ -99,3 +99,5 @@ nc -nlvp 4444
 ![image](https://github.com/user-attachments/assets/c1d126d2-8923-42f5-823d-1ac0c41a0378)
 
 
+### Temos duas shels ativas agora uma do wwwdata que era fraca e nao possuia mt previlegios , e a do swagger que vamos explorar ainda.
+![image](https://github.com/user-attachments/assets/26fbd6bc-317c-48f5-9612-7495663d43b5)
