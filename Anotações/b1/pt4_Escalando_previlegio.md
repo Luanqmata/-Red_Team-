@@ -44,7 +44,7 @@
 - Temos duas shells ativas agora: uma do 👤 `www-data` que era fraca e não possuía muitos privilégios, e a do 👑 `swagger` que vamos explorar ainda.
 ![image](https://github.com/user-attachments/assets/26fbd6bc-317c-48f5-9612-7495663d43b5)
 
-# Depois de explorar como 👑 `swagger`...
+# Depois de explorar como 👑 `swagger` Encontramos um arquivo com permissão 775 
 ![image](https://github.com/user-attachments/assets/f645cf56-c6ce-40f9-98a1-5fec134f9d25)
 
 Conteúdo do .backup:
