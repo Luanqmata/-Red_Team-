@@ -33,7 +33,14 @@
 ### shel recebido agora fazer post exploration e escalar previlegio
 ## acesso a maquina pelo www/data
 ![image](https://github.com/user-attachments/assets/a200a374-0976-4250-b338-69ea9889edbb)
+
+---
+
 # aqui estao todos os arquivos que foi feito o fuzzing ,Agora fazer um exploração pelos arquivos em busca de algo interessante
+# dentro dessa pasta opt achei um .sh que funciona a cada 1 via cron
+![image](https://github.com/user-attachments/assets/854a11c4-a51e-4e55-85b3-e3faf37ec0c1)
+### entendendo oque ocorre no script
+![image](https://github.com/user-attachments/assets/a5f88153-c1f1-40fa-88f6-4e6f5c855d4d)
 
 
 
