@@ -37,7 +37,7 @@
 
 ---
 
-### Agora vamos alterar o conteudo do arquivo e colocar para ele buscar naquele mesmo servidor python baixar e execuar o shel reverse enquanto escutamos do outro lado 
+### Agora vamos alterar o conteudo do arquivo e colocar para ele buscar naquele mesmo servidor python baixar e execuar o comando do arquivo dentro do bash, enquato escutamos do outro lado com o NC
 ![image](https://github.com/user-attachments/assets/35d15a91-bf21-42f9-b622-afb6d0e2707c)
 - Arquivo alterado com a shell ,agora abrimos outro terminal e escutamos na porta 4444 enquanto esperamos a atualização do comando que nos alteramos para enviar o cmd shell
 ![image](https://github.com/user-attachments/assets/c1d126d2-8923-42f5-823d-1ac0c41a0378)
