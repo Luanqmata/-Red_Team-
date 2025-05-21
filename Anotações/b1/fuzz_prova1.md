@@ -11,6 +11,8 @@
 -----
 ![image](https://github.com/user-attachments/assets/00ec9858-12dd-45c2-88b2-5a86941257c5)
 -----
+![image](https://github.com/user-attachments/assets/145be49f-c64a-4ac9-8b22-a42d17fd7f71)
+---- 
 ![image](https://github.com/user-attachments/assets/a3740925-1162-44ae-966a-1cb367c804f6)
 ----
 ![image](https://github.com/user-attachments/assets/d4cbd408-a1c8-4895-b84d-ced9aa3da559)
@@ -47,6 +49,6 @@ sudo dirsearch -u http://10.10.199.189/temp/assets -w /usr/share/wordlists/secli
 
  ```
 ----
-![image](https://github.com/user-attachments/assets/145be49f-c64a-4ac9-8b22-a42d17fd7f71)
+
 
 
