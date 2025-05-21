@@ -35,9 +35,10 @@ Navengando no git achei um lista de fuzz php
 lista: https://github.com/tjomk/wfuzz/blob/master/wordlist/fuzzdb/discovery/PredictableRes/PHP.fuzz.txt
 ![image](https://github.com/user-attachments/assets/7dceaf8c-9c80-4340-b059-cf427e391c06)
 # checkando a pagina:
-![image](https://github.com/user-attachments/assets/c83db763-2faf-408e-b76c-0a993d21d46f)
+![image](https://github.com/user-attachments/assets/240ae9b3-430c-4025-89dc-e3706873dfea)
 # Reparei que clicando em enviar aparece um metodo ?host= ,essa falha tem em comum mostrar o asquivos depois que vc coloca ; no final por exemplo:
 http://192.168.100.207/temp/portal/nslookup/__index.php?host=yahoo.com;ls%20/
-![image](https://github.com/user-attachments/assets/307b892f-c475-4193-a10d-5e6a4f6538ae)
+usando paramentro ;ls /
+![image](https://github.com/user-attachments/assets/08036e6d-a273-4445-a951-57cc98c2b16c)
 
 
