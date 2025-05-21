@@ -63,13 +63,15 @@ nc -nlvp 4444
 ![image](https://github.com/user-attachments/assets/a5f88153-c1f1-40fa-88f6-4e6f5c855d4d)
 
 ---
+
+## Oque é preciso entender para escalar o previlegio:
 ```txt
   ### -rwxrwxrwx  1 user-swagger user-swagger  184 Jun  1  2023 script.sh
   
   Fazendo a analine desse arquivo podemos ver que ele deu um chmod 777 
- ,que dizer que todos como root , todos os grupos e convidados tem acesso 
- a escrita execução e leitura do arquivo .sh que é um indicio que é por 
- aqui o caminho , ainda por cima o dono do arquivo é o swagger
+  ,que dizer que todos como root , todos os grupos e convidados tem acesso 
+  a escrita execução e leitura do arquivo .sh que é um indicio que é por 
+  aqui o caminho , ainda por cima o dono do arquivo é o swagger
       
   Mas tem o problema de estarmos com o usuario wwwdata que é limitado para escalar  
   previlegio de root precisamos do arquivo que tem previlegios do usuario swagger
