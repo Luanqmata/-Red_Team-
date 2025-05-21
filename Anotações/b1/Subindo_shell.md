@@ -95,7 +95,7 @@ nc -nlvp 4444
 
 ### Agora vamos alterar o conteudo do arquivo e colocar para ele buscar naquele mesmo servidor python baixar e execuar o shel reverse enquanto escutamos do outro lado 
 ![image](https://github.com/user-attachments/assets/35d15a91-bf21-42f9-b622-afb6d0e2707c)
-## Arquivo alterado com a shell ,agora abrimos outro terminal e escutamos na porta 4444 e repare como tem o registro da requisição e shell foi subida com sucesso
+## Arquivo alterado com a shell ,agora abrimos outro terminal e escutamos na porta 4444 enquanto esperamos a atualização do comando que nos alteramos para enviar o cmd shell
 ![image](https://github.com/user-attachments/assets/c1d126d2-8923-42f5-823d-1ac0c41a0378)
 
 
