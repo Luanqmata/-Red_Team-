@@ -21,3 +21,12 @@
 ### Dentro dessa pasta vamos subir o servidor pyhton para baixar com o curl
 ![image](https://github.com/user-attachments/assets/ce117679-c08a-4e7b-90c8-79057e4d97db)
 
+---
+
+### No site vamos colocar o comando do curl para baixar o arquivo e em seguida ja executa-lo | shel_2
+![image](https://github.com/user-attachments/assets/c0bba9e9-88df-4021-b2c9-9c3276935111)
+
+### no outro terminal eu fico na escuta do nc -nlvp 4444
+![image](https://github.com/user-attachments/assets/c3e6ad67-6e91-4442-a4e9-6196b32a58e2)
+
+### shel recebido agora fazer post exploration e escalar previlegio
