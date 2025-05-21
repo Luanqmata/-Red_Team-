@@ -31,8 +31,7 @@
 ----
 ![image](https://github.com/user-attachments/assets/75263af5-e1fe-43d5-be37-d0c1a566ef4f)
 # ( Descobrir diretorio com injeção de host php )
-## fuzing nesses 3 caminhos : temp/portal ; temp/images ; temp/ ;
-
+## fuzing nesse caminho : temp/portal/nslookup ;
 ----
 
 
