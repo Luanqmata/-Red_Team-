@@ -62,9 +62,13 @@ a=$(`docker ps` | cut -d " " -f1 | grep -v "CONTAINER")
 - Aparentemente tem um docker na maquina
 
 # Escalando para 🛡️ `root`
-## Como temos 775 posso escrever nesse arquivo , podemos alterar o conteudo do arquivo para "bash" e executa-lo como sudo.
+### ✍️ Como temos permissão 775, podemos alterar o conteúdo do arquivo para "bash" e executá-lo como sudo
 ![image](https://github.com/user-attachments/assets/bf139977-d1f1-4cc6-8afa-4439c19f50b9)
-- Executando o bash com sudo ,viramos root ,porque quem executa o bash acaba se tornando o pripio usuario que executou , no caso foi executado como SUDO ,logo nos tornamos SUDO.
+- ⚙️ Ao executar o bash com sudo, nos tornamos root, porque o processo de bash é iniciado pelo próprio usuário que o executou.
+
+- 🧠 Como o comando foi executado com sudo, ele roda com os privilégios de superusuário (root).
+
+- 🛡️ Resultado: Escalada de privilégio bem-sucedida para root!
 
 # 🖥️ `bash -li` (upgrade de shell)
 ![image](https://github.com/user-attachments/assets/56ab04c4-f382-4e91-a7e8-df4e53c5df1e)
