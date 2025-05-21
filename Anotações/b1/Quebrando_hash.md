@@ -1,3 +1,11 @@
+# 🛡️ Exploração da Máquina — 0ff3ns!v3 S3cur!ty - Sw4gg3r
+
+## 🔗 Links
+
+- 💻 **Máquina:** [Google Drive - Máquina](https://drive.google.com/file/d/1XsuWUulDDdktnV6fpPgRIH172iASvVmz/view)
+- 🔍 **Prova:** [TryHackMe - 0ff3ns!v3 S3cur!ty - Sw4gg3r](https://tryhackme.com/room/0ff3nsv3s3curtysw4gg3r)
+
+---
 ![image](https://github.com/user-attachments/assets/e805e653-7528-44a8-990e-6910d8a36018)
 ```txt
 root:$6$KUBD3X0u$lNbNBg8xegl2y.QqB2ivhILit5F9sPlnl5YIJkTeED0Ez5F3EDBoZIkMExQqB4J4tIr4HyCctpVoQLGaBjO/r/:19508:0:99999:7:::
