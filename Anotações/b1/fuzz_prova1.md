@@ -17,15 +17,17 @@
 ----
 ![image](https://github.com/user-attachments/assets/d4cbd408-a1c8-4895-b84d-ced9aa3da559)
 ----
+# Comando que usei para achar a flag: 
+![image](https://github.com/user-attachments/assets/e818b708-9326-4833-a362-35cf34412b93)
+( obs : como eu sabia que estava procurando uma flag coloquei /flag no final de temp/empresa/ , e por sorte encontrei )
+---
 ![image](https://github.com/user-attachments/assets/591bacc9-22ca-49ff-aff3-92635004abb1)
 ----
 # ACHEI *****
 ----
 ![image](https://github.com/user-attachments/assets/072244d4-a25d-4080-b8f7-f0f120db4b9f)
 ----
-# Comando que usei para achar a flag: 
-![image](https://github.com/user-attachments/assets/e818b708-9326-4833-a362-35cf34412b93)
-( obs : como eu sabia que estava procurando uma flag coloquei /flag no final de temp/empresa/ , e por sorte encontrei )
+
 ----
 ![image](https://github.com/user-attachments/assets/75263af5-e1fe-43d5-be37-d0c1a566ef4f)
 # ( Descobrir diretorio com injeção de host php )
