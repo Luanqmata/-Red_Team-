@@ -66,10 +66,16 @@ nc -nlvp 4444
 ```txt
   ### -rwxrwxrwx  1 user-swagger user-swagger  184 Jun  1  2023 script.sh
   
-  Fazendo a analine desse arquivo podemos ver que ele deu um chmod 777 ,que dizer que todos como root , todos os grupos e convidados tem acesso a escrita execução e leitura do arquivo .sh que é um indicio que é por     aqui o caminho , ainda por cima o dono do arquivo é o swagger
+  Fazendo a analine desse arquivo podemos ver que ele deu um chmod 777 
+ ,que dizer que todos como root , todos os grupos e convidados tem acesso 
+ a escrita execução e leitura do arquivo .sh que é um indicio que é por 
+ aqui o caminho , ainda por cima o dono do arquivo é o swagger
       
-  Mas tem o problema de estarmos com o usuario wwwdata que é limitado para escalar previlegio de root precisamos do arquivo que tem previlegios do usuario swagger que é literalmente este arquivo
+  Mas tem o problema de estarmos com o usuario wwwdata que é limitado para escalar  
+  previlegio de root precisamos do arquivo que tem previlegios do usuario swagger
+  que é literalmente este arquivo
 
-  Para Conseguir entrar no user dele podemos usar o script que ele criou contra ele mesmo e colocar um shell reverse para entrar da nossa maquina no perfil de usuario dele
+  Para Conseguir entrar no user dele podemos usar o script que ele criou contra ele mesmo
+  e colocar um shell reverse para entrar da nossa maquina no perfil de usuario dele
 
 ```
