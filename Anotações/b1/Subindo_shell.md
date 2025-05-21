@@ -95,9 +95,9 @@ nc -nlvp 4444
 
 ### Agora vamos alterar o conteudo do arquivo e colocar para ele buscar naquele mesmo servidor python baixar e execuar o shel reverse enquanto escutamos do outro lado 
 ![image](https://github.com/user-attachments/assets/35d15a91-bf21-42f9-b622-afb6d0e2707c)
-## Arquivo alterado com a shell ,agora abrimos outro terminal e escutamos na porta 4444 enquanto esperamos a atualização do comando que nos alteramos para enviar o cmd shell
+- Arquivo alterado com a shell ,agora abrimos outro terminal e escutamos na porta 4444 enquanto esperamos a atualização do comando que nos alteramos para enviar o cmd shell
 ![image](https://github.com/user-attachments/assets/c1d126d2-8923-42f5-823d-1ac0c41a0378)
 
 
-### Temos duas shels ativas agora uma do wwwdata que era fraca e nao possuia mt previlegios , e a do swagger que vamos explorar ainda.
+- Temos duas shels ativas agora uma do wwwdata que era fraca e nao possuia mt previlegios , e a do swagger que vamos explorar ainda.
 ![image](https://github.com/user-attachments/assets/26fbd6bc-317c-48f5-9612-7495663d43b5)
