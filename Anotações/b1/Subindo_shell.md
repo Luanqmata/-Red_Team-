@@ -90,5 +90,5 @@ nc -nlvp 4444
 - A escalada de privilégios acontece **não quando você executa o script manualmente**, mas quando o **cron do 'swagger' executa o script que você editou**.
 
 ![image](https://github.com/user-attachments/assets/b0322b76-b96a-4585-a5cf-a485ee1183bb)
-
+- Por exemplo nesta imagem eu escalei previlegio do meu propio usuario e consegui, agora so fazer no arq do usuario swagger
 ---
