@@ -6,7 +6,6 @@
 - 🔍 **Prova:** [TryHackMe - 0ff3ns!v3 S3cur!ty - Sw4gg3r](https://tryhackme.com/room/0ff3nsv3s3curtysw4gg3r)
 
 ---
----
 
 ## 🧠 Resumo: Como Escalar Privilégios para o Usuário 'swagger'
 
