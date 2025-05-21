@@ -92,3 +92,8 @@ nc -nlvp 4444
 ![image](https://github.com/user-attachments/assets/b0322b76-b96a-4585-a5cf-a485ee1183bb)
 - Por exemplo nesta imagem eu escalei previlegio do meu propio usuario e consegui, agora so fazer no arq do usuario swagger
 ---
+
+### Agora vamos alterar o conteudo do arquivo e colocar para ele buscar naquele mesmo servidor python baixar e execuar o shel reverse enquanto escutamos do outro lado 
+![image](https://github.com/user-attachments/assets/35d15a91-bf21-42f9-b622-afb6d0e2707c)
+
+Adicionamos o comando no arquivo
