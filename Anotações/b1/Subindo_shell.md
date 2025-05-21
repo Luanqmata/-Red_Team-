@@ -31,3 +31,9 @@
 ![image](https://github.com/user-attachments/assets/c3e6ad67-6e91-4442-a4e9-6196b32a58e2)
 
 ### shel recebido agora fazer post exploration e escalar previlegio
+## acesso a maquina pelo www/data
+![image](https://github.com/user-attachments/assets/a200a374-0976-4250-b338-69ea9889edbb)
+# aqui estao todos os arquivos que foi feito o fuzzing ,Agora fazer um exploração pelos arquivos em busca de algo interessante
+
+
+
