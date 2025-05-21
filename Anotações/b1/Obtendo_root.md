@@ -28,7 +28,10 @@ docker ps / docker inpect
 
 ---
 flag root 
+---
 ![image](https://github.com/user-attachments/assets/e0610da5-e09a-459a-92a7-4b3ffba6163f)
+---
 ![image](https://github.com/user-attachments/assets/edc189b9-5a6e-4a90-9abb-9e85ef9e8758)
+---
 ![image](https://github.com/user-attachments/assets/9b1aa064-ce27-47f1-a1f4-7ce54265b4da)
 
