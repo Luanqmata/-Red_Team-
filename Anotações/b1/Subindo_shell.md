@@ -91,5 +91,7 @@ nc -nlvp 4444
   
   
 ```
+>
 ![image](https://github.com/user-attachments/assets/b0322b76-b96a-4585-a5cf-a485ee1183bb)
 ### por exemplo aqui se colocar-mos um bash dentro desse script.sh como nos colocamos com o usuario wwwdata , quando eu exe no arquivo vai me retornar como se fosse um shell reversa do propio usuario como na imagem acima , nao tem como eu elevar o nivel de usuario sendo que foi o propio usuario que adicionou o bash entao na teoria devemos colocar o bash dentro do script do swagger para conseguir o acesso dele
+>
