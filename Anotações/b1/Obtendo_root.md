@@ -17,3 +17,7 @@ docker inspect $a
 
 # escalando para root
 ![image](https://github.com/user-attachments/assets/bf139977-d1f1-4cc6-8afa-4439c19f50b9)
+
+# bash -li (upgrade de shell)
+![image](https://github.com/user-attachments/assets/56ab04c4-f382-4e91-a7e8-df4e53c5df1e)
+agora é só ser feliz.
