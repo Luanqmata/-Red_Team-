@@ -22,7 +22,7 @@
 - Estamos logados como `www-data`, um usuário limitado.
 - Executar o script manualmente com `www-data` **não eleva os privilégios**, porque o shell reverso retornará com os mesmos direitos de `www-data`.
 ![image](https://github.com/user-attachments/assets/b0322b76-b96a-4585-a5cf-a485ee1183bb)
-- Por exemplo nesta imagem eu escalei previlegio do meu propio usuario e consegui, agora so fazer no arq do usuario swagger
+- Por exemplo nesta imagem eu escalei previlegio do meu propio usuario e consegui, mas nao sai do propio wwwdata
 
 ### Solução:
 1. Editar o `script.sh` e **inserir um comando de shell reverso**, por exemplo:
