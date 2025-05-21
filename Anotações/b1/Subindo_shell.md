@@ -18,4 +18,6 @@
 
 ```
 
-![image](https://github.com/user-attachments/assets/69167c6e-d696-4aae-a6d7-b2d74af1a74b)
+### Dentro dessa pasta vamos subir o servidor pyhton para baixar com o curl
+![image](https://github.com/user-attachments/assets/ce117679-c08a-4e7b-90c8-79057e4d97db)
+
