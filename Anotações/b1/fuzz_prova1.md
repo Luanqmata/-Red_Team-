@@ -26,12 +26,18 @@
 # ACHEI *****
 ----
 ![image](https://github.com/user-attachments/assets/072244d4-a25d-4080-b8f7-f0f120db4b9f)
-----
 
 ----
 # ( Descobrir diretorio com injeção de host php )
 ## fuzing nesse caminho : temp/portal/nslookup ;
 ----
-
+Navengando no git achei um lista de fuzz php 
+lista: https://github.com/tjomk/wfuzz/blob/master/wordlist/fuzzdb/discovery/PredictableRes/PHP.fuzz.txt
+![image](https://github.com/user-attachments/assets/7dceaf8c-9c80-4340-b059-cf427e391c06)
+# checkando a pagina:
+![image](https://github.com/user-attachments/assets/c83db763-2faf-408e-b76c-0a993d21d46f)
+# Reparei que clicando em enviar aparece um metodo ?host= ,essa falha tem em comum mostrar o asquivos depois que vc coloca ; no final por exemplo:
+http://192.168.100.207/temp/portal/nslookup/__index.php?host=yahoo.com;ls%20/
+![image](https://github.com/user-attachments/assets/307b892f-c475-4193-a10d-5e6a4f6538ae)
 
 
