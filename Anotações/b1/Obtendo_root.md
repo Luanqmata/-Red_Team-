@@ -21,3 +21,7 @@ docker inspect $a
 # bash -li (upgrade de shell)
 ![image](https://github.com/user-attachments/assets/56ab04c4-f382-4e91-a7e8-df4e53c5df1e)
 agora é só ser feliz.
+
+docker ps / docker inpect
+
+![image](https://github.com/user-attachments/assets/79e11a7e-da0d-4f7b-83c3-8256d4c53299)
