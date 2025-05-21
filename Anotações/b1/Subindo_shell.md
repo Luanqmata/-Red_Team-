@@ -6,6 +6,7 @@
 - 🔍 **Prova:** [TryHackMe - 0ff3ns!v3 S3cur!ty - Sw4gg3r](https://tryhackme.com/room/0ff3nsv3s3curtysw4gg3r)
 
 ---
+## obs: Desligar antivirus.
 
 ### Parece que a mquina tem um curl ,da pra subir um arquivo shell em servidor python com o script do shelRev baixar na maquina com o curl , executar e escutar a resposta do outro lado
 
