@@ -37,4 +37,4 @@ user-swagger:$6$egSH84oV$u9OjtVqBDj7s8.s4.EZWreyOxsE2e9AHtqzDS9Al7NRTJ64m1mTdiyQ
 ![image](https://github.com/user-attachments/assets/62c10671-6756-4158-a0af-bf49190a6969)
 
 ![image](https://github.com/user-attachments/assets/21c6a4bc-f00d-49fa-8d11-dbef3e5f1cfc)
-senha root:121212
+- Senha root:121212
