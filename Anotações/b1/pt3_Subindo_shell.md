@@ -54,7 +54,8 @@ nc -nlvp 4444
 
 ### 🗂️ Aqui estão todos os arquivos encontrados com fuzzing. Agora vamos explorá-los em busca de algo útil.
 ![image](https://github.com/user-attachments/assets/a200a374-0976-4250-b338-69ea9889edbb)
-### Dentro da pasta `/opt`, encontramos um script `.sh` que é executado via cron a cada minuto:
+### Após a exploração encontrei um arquivo .sh (O arquivo sensivel),
+### Dentro da pasta `/opt`, encontramos um script `.sh` Arquivo executavel por todos:
 
 ![image](https://github.com/user-attachments/assets/854a11c4-a51e-4e55-85b3-e3faf37ec0c1)
 
