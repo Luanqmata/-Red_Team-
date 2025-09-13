@@ -10,8 +10,7 @@
 
 <p align="center">
 
-  ![image](https://github.com/user-attachments/assets/d1c3b4f5-6e16-44c0-bd8e-fafa0461e7bf)
-
+![image](https://github.com/user-attachments/assets/d1c3b4f5-6e16-44c0-bd8e-fafa0461e7bf)
 </p>
 
 ## (Enumeração superficial)
@@ -93,14 +92,12 @@
 
 <p align="center">
 
-  ![image](https://github.com/user-attachments/assets/ef712d78-f460-4553-9823-f86f7837372c)
-
+![image](https://github.com/user-attachments/assets/ef712d78-f460-4553-9823-f86f7837372c)
 </p>
 
 ---
 
 <p align="center">
 
-  ![image](https://github.com/user-attachments/assets/cb219bd7-fe23-45e2-b15a-64fda2131c26)
-
+![image](https://github.com/user-attachments/assets/cb219bd7-fe23-45e2-b15a-64fda2131c26)
 </p>
