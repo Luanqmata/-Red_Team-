@@ -8,9 +8,11 @@
 ---
 # Ip alvo : 192.168.100.207
 
-![image](https://github.com/user-attachments/assets/d1c3b4f5-6e16-44c0-bd8e-fafa0461e7bf)
+<p align="center">
+  ![image](https://github.com/user-attachments/assets/d1c3b4f5-6e16-44c0-bd8e-fafa0461e7bf)
+</p>
 
-(Enumeração superficial)
+## (Enumeração superficial)
 
 ---
 ## com scanner/ssh/ssh_version
@@ -86,9 +88,13 @@
 ---
 
 ## Enumerando Porta ftp protocolos http
+
+<p align="center">
 ![image](https://github.com/user-attachments/assets/ef712d78-f460-4553-9823-f86f7837372c)
+</p>
 
 ---
 
+<p align="center">
 ![image](https://github.com/user-attachments/assets/cb219bd7-fe23-45e2-b15a-64fda2131c26)
-
+</p>
